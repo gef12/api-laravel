@@ -34,6 +34,7 @@ return [
     | Supported: "session", "token"
     |
     */
+    //teste de rotas
 
     'guards' => [
         'web' => [
