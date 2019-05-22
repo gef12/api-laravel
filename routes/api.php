@@ -16,6 +16,8 @@ use App\Http\Controllers\api\CdsController;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
+
+//rotas para acesso a api
 Route::post('auth/login','api\AuthController@login');
 Route::post('auth/refresh','api\AuthController@refresh');
 Route::get('auth/logout','api\AuthController@logout');
